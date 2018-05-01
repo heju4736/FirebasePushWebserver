@@ -13,12 +13,6 @@ Android에서 Firebase의 push를 서버로 받기
     ```Java
       con.setRequestProperty("Authorization", "Firebase 서버 키");
     ```
-- Server 주소 입력
-  - Pushserver.java
-  - 서버주소는 가림
-    ```Java
-      String url = ""; 
-    ```
 - Push 보낼 내용 입력
   - Pushserver.java
     ```Java
@@ -27,7 +21,7 @@ Android에서 Firebase의 push를 서버로 받기
     
 ### 3. Getting Started
  
- - 서버주소와 보낼 내용 그리고 Firebase 서버키를 입력 후 실행을 누르면 연결된 앱에 Push가 보내지게 된다.
+ - 보낼 내용 그리고 Firebase 서버키를 입력 후 실행을 누르면 연결된 앱에 Push가 보내지게 된다.
  
 ### 4. Copyright / End User License
  
